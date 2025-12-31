@@ -1,47 +1,41 @@
-# password-strength-analyzer
-🔐 Password Strength Analyzer
+# 🔐 Password Strength Analyzer
 
-A modern Python GUI application built using CustomTkinter that analyzes password strength in real time. It helps users create strong, secure passwords by checking length, complexity, and common vulnerability patterns.
+## Overview
+The **Password Strength Analyzer** is a modern Python-based GUI application developed using **CustomTkinter**.  
+It analyzes password strength in real time and helps users create strong and secure passwords by evaluating length, character complexity, and common vulnerability patterns.
 
-✨ Features
+This project is suitable for **academic submissions**, **final-year projects**, and for learning **password security best practices**.
 
-📊 Real-time password strength analysis
+---
 
-🔐 Strength indicator with progress bar and score
+## ✨ Features
 
-✅ Live checklist for password requirements
+- 📊 Real-time password strength analysis  
+- 🔐 Strength indicator with progress bar and score  
+- ✅ Live checklist for password requirements  
+- 💡 Intelligent suggestions to improve weak passwords  
+- 🎲 Secure random password generator  
+- 👁 Show / Hide password functionality  
+- 📋 One-click copy to clipboard  
+- 💾 Secure storage of password analysis using hashing  
+- 🌙 Modern dark-themed user interface  
 
-💡 Smart suggestions to improve weak passwords
+---
 
-🎲 Strong password generator
+## 🛠️ Technologies Used
 
-👁 Show/Hide password option
+- Python  
+- CustomTkinter  
+- Tkinter  
+- Regular Expressions (Regex)  
+- SHA-256 Cryptographic Hashing  
 
-📋 One-click copy to clipboard
+---
 
-💾 Securely save password analysis (hashed)
+## 🚀 How to Run
 
-🌙 Dark mode modern UI
-
-🛠️ Technologies Used
-
-Python
-
-CustomTkinter
-
-Tkinter
-
-Regular Expressions
-
-SHA-256 Hashing
-
-🚀 How to Run
-
-Install required dependency:
+### 1. Install Dependencies
 
 pip install customtkinter
-
-
-Run the application:
-
-app.py
+2. Run the Application
+python app.py
